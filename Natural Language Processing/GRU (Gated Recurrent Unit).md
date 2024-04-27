@@ -1,5 +1,3 @@
-# YAI 봄 2주차
-
 # Background: RNN (Recurrent Neural Network)
 
 Recurrent Neural Networks (RNNs) are a class of neural networks designed to process sequential data of varying lengths. Unlike traditional feedforward neural networks, RNNs maintain a form of internal memory through their recurrent hidden states, allowing them to exhibit dynamic temporal behavior. This feature makes RNNs particularly suitable for tasks where the current input is dependent on prior inputs, such as natural language processing or time series analysis.
