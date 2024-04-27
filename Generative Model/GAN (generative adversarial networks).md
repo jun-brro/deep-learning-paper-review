@@ -1,5 +1,6 @@
 # Week 1. GAN
 작성날짜: 2024년 3월 12일
+
 작성자: Junhyeong Park
 
 <img width="679" alt="Untitled" src="https://github.com/jun-brro/deep-learning-paper-review/assets/115399447/fd4ea1ed-38e2-4033-b34d-6c3a2659261d">
