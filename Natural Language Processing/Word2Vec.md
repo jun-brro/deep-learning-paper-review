@@ -1,5 +1,3 @@
-# YAI 봄 1주차
-
 # Skip-Gram Model
 
 The fat cat sat on the table → the central word ‘sat’ → predicting surrounding words.
