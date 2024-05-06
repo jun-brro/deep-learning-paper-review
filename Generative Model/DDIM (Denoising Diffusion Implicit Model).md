@@ -79,16 +79,14 @@ $$
 
 $$
 \begin{aligned}
-x_{t-\Delta t} &= \sqrt{\alpha_{t-\Delta t}} \bigg( \frac{x_t - \sqrt{1-\alpha_t} \epsilon_\theta^{(t)} (x_t)}{\sqrt{\alpha_t}}  \bigg)
-+ \sqrt{1-\alpha_{t-\Delta t}} \cdot \epsilon_\theta^{(t)} (x_t) \\
-&= \frac{\sqrt{\alpha_{t-\Delta t}}}{\sqrt{\alpha_t}} x_t + \sqrt{\alpha_{t-\Delta t}} \bigg( \sqrt{\frac{1 - \alpha_{t-\Delta t}}{\alpha_{t-\Delta t}}} - \sqrt{\frac{1-\alpha_t}{\alpha_t}} \bigg) \cdot \epsilon_\theta^{(t)} (x_t) \\
-\frac{x_{t-\Delta t}}{\sqrt{\alpha_{t-\Delta t}}} &= \frac{x_t}{\sqrt{\alpha_t}} + \bigg( \sqrt{\frac{1 - \alpha_{t-\Delta t}}{\alpha_{t-\Delta t}}} - \sqrt{\frac{1-\alpha_t}{\alpha_t}} \bigg) \epsilon_\theta^{(t)} (x_t)
+x_{t-\Delta t} &= \sqrt{\alpha_{t-\Delta t}} \left( \frac{x_t - \sqrt{1-\alpha_t} \epsilon_\theta^{(t)} (x_t)}{\sqrt{\alpha_t}}  \right) + \sqrt{1-\alpha_{t-\Delta t}} \cdot \epsilon_\theta^{(t)} (x_t) \\
+&= \frac{\sqrt{\alpha_{t-\Delta t}}}{\sqrt{\alpha_t}} x_t + \sqrt{\alpha_{t-\Delta t}} \left( \sqrt{\frac{1 - \alpha_{t-\Delta t}}{\alpha_{t-\Delta t}}} - \sqrt{\frac{1-\alpha_t}{\alpha_t}} \right) \cdot \epsilon_\theta^{(t)} (x_t) \\
+\frac{x_{t-\Delta t}}{\sqrt{\alpha_{t-\Delta t}}} &= \frac{x_t}{\sqrt{\alpha_t}} + \left( \sqrt{\frac{1 - \alpha_{t-\Delta t}}{\alpha_{t-\Delta t}}} - \sqrt{\frac{1-\alpha_t}{\alpha_t}} \right) \epsilon_\theta^{(t)} (x_t)
 \end{aligned}
 $$
 
-$$
-\begin{align}\bar{x}_{t-\Delta t} &= \bar{x}_t + ( \sigma_{t-\Delta t} - \sigma_t ) \epsilon_\theta^{(t)} (x_t) \\\bar{x}_t - \bar{x}_{t-\Delta t} &= ( \sigma_t - \sigma_{t-\Delta t} ) \epsilon_\theta^{(t)} \bigg( \frac{\bar{x}_t}{\sqrt{1+\sigma_t^2}} \bigg)\\\therefore d \bar{x} (t) &= \epsilon_\theta^{(t)} \bigg( \frac{\bar{x} (t)}{\sqrt{\sigma^2 + 1}} \bigg) d \sigma (t)\end{align}
-$$
+<img width="520" alt="image" src="https://github.com/jun-brro/deep-learning-paper-review/assets/115399447/6d610ba6-0364-493f-aaa3-760539dabfa4">
+
 
 The initial condition is x(T) ~ N(0, sigma(T)). From this, we can infer that by performing enough discretization steps, it is possible to reverse the ODE, which also makes it feasible to reverse the generation process, that is, to encode x_0 → x(T).
 
