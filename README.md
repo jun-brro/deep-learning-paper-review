@@ -2,10 +2,16 @@
 
 
 ### Generative Model
-Prometheus Multimodal Generative Study Team `2024. 02 ~`
+Prometheus Multimodal Generative Study Team `2024. 02 ~ 2024. 07`
 
 ### Natural Language Processing (NLP)
-Yonsei AI(YAI) Advanced-Basic NLP Study Team `2024.03`
+Yonsei AI(YAI) Advanced-Basic NLP Study Team `2024. 03`
 
 ### Audio Detection
-Yonsei AI(YAI) 4th YAICON '알잘딱깔센' Team `2024.04 ~`
+Yonsei AI(YAI) 4th YAICON '알잘딱깔센' Team `2024. 04 ~ 2024. 06`
+
+### GNN
+Prometheus GNN-Based Book Recommendation Team `2024. 08`
+
+### Video
+Yonsei AI(YAI) Research Study Team (Video) `2024. 08 ~`
